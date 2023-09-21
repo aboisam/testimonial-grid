@@ -11,20 +11,12 @@ This is a solution to the [Testimonials grid section challenge on Frontend Mento
 ### The challenge
 
 ### Screenshot
-
-![](./screenshot.jpg)
-
-Add a screenshot of your solution. The easiest way to do this is to use Firefox to view your project, right-click the page and select "Take a Screenshot". You can choose either a full-height screenshot or a cropped one based on how long the page is. If it's very long, it might be best to crop it.
-
-Alternatively, you can use a tool like [FireShot](https://getfireshot.com/) to take the screenshot. FireShot has a free option, so you don't need to purchase it. 
-
-Then crop/optimize/edit your image however you like, add it to your project, and update the file path in the image above.
-
-**Note: Delete this note and the paragraphs above when you add your screenshot. If you prefer not to add a screenshot, feel free to remove this entire section.**
+![Screenshot 2023-09-21 125011](https://github.com/aboisam/testimonial-grid/assets/128613281/09b19eae-93e8-4f4d-a244-0184e372eb72)
+![mobile ](https://github.com/aboisam/testimonial-grid/assets/128613281/29e820a0-0c93-477a-b222-21d29ed30892)
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
+- Solution URL: https://github.com/aboisam/testimonial-grid.git
 - Live Site URL: [Add live site URL here](https://your-live-site-url.com)
 
 ## My process
