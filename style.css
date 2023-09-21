@@ -1,0 +1,162 @@
+:root {
+    --Moderate-violet: hsl(263, 55%, 52%);
+    --Very-dark-grayish-blue: hsl(217, 19%, 35%);
+    --Very-dark-blackish-blue: hsl(219, 29%, 14%);
+    --White: hsl(0, 0%, 100%);
+    --Light-gray: hsl(0, 0%, 81%);
+    --Light-grayish-blue: hsl(210, 46%, 95%);
+    --soft-Moderate-violet: hsl(263, 54%, 61%);
+    
+}  
+
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    display: grid;
+    place-items: center;
+    font-family: 'Barlow semi Condensed', sans-serif; 
+    font-size: 0.75rem;
+    min-height: 100vh;
+    background-color: var(--Light-grayish-blue);
+}
+#grid-main{
+    display: grid;
+    grid-template-columns: repeat(4, minmax(220px,1fr));
+    grid-gap: 1.75rem;
+    width: 100%;
+    max-width: 1080px;
+    min-height: 70vh;
+}
+
+.people{
+    border-radius: 10px;
+    padding: 1.5rem 2rem 2rem 2rem;
+    box-shadow: 2px 2px 2rem 0 var(--Light-gray);
+}
+
+.people blockquote .head_quote{
+    color: var(--White);
+    margin: 1rem auto;
+    font-size: 1.2rem;
+    font-weight: 500;
+}
+.people paragh {
+    color: var(--Light-gray);
+    opacity: 70%;
+    line-height: 1rem;
+    font-weight: 600;
+}
+
+.profile{
+    display: grid;
+    grid-template-columns: 45px auto;
+}
+
+.bg .profile h2, .bg blockquote .head-quote {
+    color: var(--Very-dark-blackish-blue);
+    opacity: 80%;
+}
+
+.bg .paragh, .bg .profile .paragh {
+    color: var(--Very-dark-blackish-blue);
+    opacity: 50%;
+}
+.profile img {
+    grid-row: 1 / 3;
+    width: 35px;
+    border-radius: 50%;
+    border: 2.5px solid var(--Light-gray);
+}
+
+.profile h2 {
+    color: var(--White);
+    font-size: 0.85rem;
+    opacity: 85%;
+    margin-bottom: 0.25rem;
+}
+
+.head{
+    color: var(--Very-dark-blackish-blue);
+    margin: 1rem auto;
+    font-size: 1.2rem;
+    font-weight: 500;
+}
+.pat{
+    color: var(--White); 
+    margin: bottom 0.25rem;
+    font-size: 0.85rem;
+}
+
+
+.profile .paragraph {
+    color: var(--Light-gray);
+    opacity: 50%;
+}
+
+#daniel {
+    background: var(--Moderate-violet);
+    grid-column: 1 / 3;
+    background-image: url(./images/bg-pattern-quotation.svg);
+    background-repeat: no-repeat;
+    background-position: 80% 0%;
+}
+
+#jonathan {
+    background: var(--Very-dark-grayish-blue);
+}
+#patrick {
+    background: var(--Very-dark-blackish-blue);
+    grid-column: 2 / 4;
+}
+#jeanette {
+    background: var(--White);
+}
+#kira {
+    background: var(--White);
+    grid-column-start: 4;
+    grid-row: 1 / 3;
+}
+#daniel .profile img, #Patrick .profile img {
+    border-color: var(--soft-Moderate-violet);
+}
+footer {
+    font-size: 1rem;
+    text-align: center; 
+    height: 3vh;
+}
+
+footer a {
+    color: hsl(228, 45%, 44%); 
+    text-decoration: none;
+}
+
+footer a:hover {
+    color: var(--soft-Moderate-violet);
+}
+
+@media (max-width: 680px) {
+    .logo {
+        width: 100px;
+    }
+    h1 {
+        font-size: 3.5rem;
+        text-align: center;
+    }
+    .grid-main .people   {
+        width: 100px;
+        display: block;
+        margin-bottom: 30px;
+        text-align: justify;
+    }
+
+    .r{
+        margin-bottom: 10px;
+        width: 100px;
+        display: inline;
+        object-fit: cover;
+    }
+}
