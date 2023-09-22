@@ -17,7 +17,7 @@ This is a solution to the [Testimonials grid section challenge on Frontend Mento
 ### Links
 
 - Solution URL: https://github.com/aboisam/testimonial-grid.git
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Live Site URL:(https://aboisam.github.io/testimonial-grid/)
 
 ## My process
 
